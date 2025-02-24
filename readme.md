@@ -4,8 +4,10 @@
 *Owner: Namitha Patil, namitha.patil@snowflake.com*
 
 Description: Snowflake Cortex Search Service and Cortex LLMs power this Chatbot against NCBI PMC Open Access Articles. 
+
 Data Source: AWS Open Data Exchange: https://aws.amazon.com/marketplace/pp/prodview-qh4qqd6ebnqio
-Related Blog Post: Coming Soon
+
+Related Blog Post: https://medium.com/snowflake/streamline-scientific-biomedical-research-with-snowflake-cortex-search-for-pubmed-6b9d5a2a383d 
 
 DEMO RESOURCES
 1. PMC_Chatbot_Setup.sql 
