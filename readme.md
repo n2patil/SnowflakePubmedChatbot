@@ -13,7 +13,8 @@ SETUP INSTRUCTIONS
 1. PMC_Chatbot_Setup.sql 
 2. Import snowflake_notebook_explore_service.ipynb into snowflake notebook
 3. Copy SiS_Chatbot.py into a Streamlit in Snowflake App
-    NOTE: All NCBI.gov links embeded in the SiS app require opening using right click "open in new tab/window" 
+     NOTE: All NCBI.gov links embeded in the SiS app require opening using right click "open in new tab/window" 
+
 ![Create Streamlit in Snowflake](image.png)
 ![SiS App Tab1](<NCBI Pubmed.png>)
 ![SiS App Tab2](<NCBI Pubmed-1.png>)
