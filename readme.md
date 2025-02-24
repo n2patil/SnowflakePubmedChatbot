@@ -9,7 +9,7 @@ Data Source: AWS Open Data Exchange: https://aws.amazon.com/marketplace/pp/prodv
 
 Related Blog Post: https://medium.com/snowflake/streamline-scientific-biomedical-research-with-snowflake-cortex-search-for-pubmed-6b9d5a2a383d 
 
-DEMO RESOURCES
+SETUP INSTRUCTIONS
 1. PMC_Chatbot_Setup.sql 
 2. Import snowflake_notebook_explore_service.ipynb into snowflake notebook
 3. Copy SiS_Chatbot.py into a Streamlit in Snowflake App
