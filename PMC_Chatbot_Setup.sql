@@ -1,11 +1,11 @@
 --PubMed Central
-create if not exists database PMC_DATA;
-create schema pmc_oa_opendata;
-create warehouse pmc_wh WAREHOUSE_SIZE = 'small' WAREHOUSE_TYPE = 'standard' AUTO_SUSPEND = 300 AUTO_RESUME = TRUE INITIALLY_SUSPENDED = TRUE COMMENT = 'warehouse for PMC Chatbot';
+-- create database PMC_DATA;
+-- create schema pmc_oa_opendata;
+-- create warehouse pmc_wh WAREHOUSE_SIZE = 'small' WAREHOUSE_TYPE = 'standard' AUTO_SUSPEND = 300 AUTO_RESUME = TRUE INITIALLY_SUSPENDED = TRUE COMMENT = 'warehouse for PMC Chatbot';
 
-use warehouse pmc_wh;
+-- use warehouse pmc_wh;
 
-create or replace stage pmc_oa_comm_raw url = 's3://pmc-oa-opendata/oa_comm';
+-- create or replace stage pmc_oa_comm_raw url = 's3://pmc-oa-opendata/oa_comm';
 
 
 --https://www.ncbi.nlm.nih.gov/pmc/tools/pmcaws/
